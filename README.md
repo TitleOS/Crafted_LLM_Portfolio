@@ -17,8 +17,8 @@ Below is a curated list of my trained models. Click the badges to visit the resp
 | Model Name | Short Description | Repository |
 | :--- | :--- | :---: |
 | **HomeGem4Bn** | A finetune of 4-bit Gemma 3n-e4b against the acon96/Home-Assistant-Requests, designed for use as a local LLM to control your Home Assistant environment. | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Open_Repo-blue)](https://huggingface.co/TitleOS/HomeGem4Bn) |
-| **Galactic Reasoning LoRA Adapters** | *A collection of the Galactic Reasoning adapters, finetuned to provide chain of thought and reasoning to Meta's OPT-based Galactica models. * | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Open_Repo-blue)](https://huggingface.co/collections/TitleOS/galactic-reasoning-lora-adapters) |
-| **Coming Soon** | *Phi4-mini-reasoning tuned for Home Assistant.* | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Open_Repo-blue)](https://huggingface.co/your-username/model-name) |
+| **Galactic Reasoning LoRA Adapters** | A collection of the Galactic Reasoning adapters, finetuned to provide chain of thought and reasoning to Meta's OPT-based Galactica models. | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Open_Repo-blue)](https://huggingface.co/collections/TitleOS/galactic-reasoning-lora-adapters) |
+| **Coming Soon** | Phi4-mini-reasoning tuned for Home Assistant using the acon96/Home-Assistant-Requests dataset. | [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-Open_Repo-blue)](https://huggingface.co/TitleOS/HomePhi4_4B)) |
 
 ## 🧪 Featured Project: Galactic Reasoning LoRA Adapters aka Modernizing Galactica
 
