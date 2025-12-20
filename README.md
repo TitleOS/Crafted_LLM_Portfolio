@@ -88,6 +88,7 @@ input_ids = tokenizer(input_text, return_tensors="pt").to("cuda")
 
 outputs = model.generate(**input_ids, max_new_tokens=50)
 print(tokenizer.decode(outputs[0]))
+```
 
 ## 📫 Contact
 ​If you have questions about the training methodologies, datasets, or specific model weights, feel free to reach out.
