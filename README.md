@@ -35,9 +35,16 @@ This collection showcases my work with the **"Textbooks Are All You Need"** (Phi
 
 | Model Name | Description | Repository |
 | :--- | :--- | :--- |
-| **Gemma 3n Hermes 3 10k** | **(Latest)** A fresh fine-tune applying the Hermes 3 dataset to the Gemma 3n architecture. | [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/gemma-3n-hermes-3-10k) |
 | **Galactic Reasoning** | A research project modernizing Meta's OPT-based Galactica by adding Chain of Thought (CoT) and reasoning capabilities via LoRA adapters. | [![HuggingFace](https://img.shields.io/badge/🤗-Collection-blue)](https://huggingface.co/collections/TitleOS/galactic-reasoning-lora-adapters) |
-| **Seahorse 350m** | A compact 350m parameter text generation model. | [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/Seahorse-350m) |
+| **Seahorse 350m** | A compact 350m parameter text generation model. Trained on OPT using Alpaca.| [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/Seahorse-350m) |
+
+---
+
+## ⛓️ Decensoring & Jailbreaking
+
+| Model Name | Description | Repository |
+| :--- | :--- | :--- |
+| **Gwen3 Coder 30B A3B Decensored** | A collection of decensored Qwen3 Coder 30B A3B, done in original FP16, as well as quantizations. Decensoring performed using Heretic.| [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/collections/TitleOS/qwen3-coder-heretic-decensored) |
 
 ---
 
