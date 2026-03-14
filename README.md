@@ -1,10 +1,7 @@
 # Crafted LLMs Portfolio
-
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://pytorch.org)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/TitleOS)
 
-## 📖 About This Collection
+## About This Collection
 
 This repository serves as a portfolio of my work in the field of Large Language Models. As an LLM enthusiast and researcher, I explore techniques in fine-tuning, model merging, and quantization.
 
