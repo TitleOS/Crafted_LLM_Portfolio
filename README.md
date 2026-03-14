@@ -45,7 +45,7 @@ This collection showcases my work with the **"Textbooks Are All You Need"** (Phi
 
 ---
 
-## ⛓️ Decensoring & Jailbreaking
+## Decensoring & Jailbreaking
 
 | Model Name | Description | Repository |
 | :--- | :--- | :--- |
