@@ -17,7 +17,7 @@ I created a dataset using a unique ratioed combination of QuixiAI/samantha-data,
 
 | Model Name | Role | Description | Repository |
 | :--- | :--- | :--- | :--- |
-| **Eve-4B** | **Purple Team Agent** | A "punches above it's weight class" purple teaming model, based on Heretic'd Qwen 3 4B, Eve-4B scores a 26.22% on LCB, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent. |The model is private but likely will be open sourced soon.|
+| **Eve-4B** | **Purple Team Agent** | A "punches above it's weight class" purple teaming model, based on Heretic'd Qwen 3 4B, Eve-4B scores a 26.22% on LCB, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent.|The model is private but likely will be open sourced soon.|
 
 ### Efficient & Distilled Models (Teacher-Student)
 
@@ -32,9 +32,9 @@ This collection showcases my work with the **"Textbooks Are All You Need"** (Phi
 
 | Model Name | Description | Repository |
 | :--- | :--- | :--- |
-| **HomePhi4** | **(New)** A collection of `microsoft/Phi-4-mini-reasoning` models fine-tuned on the `acon96/Home-Assistant-Requests` dataset. Designed for reasoning-based local home control. Available in FP16 and GGUF quants. | [![HuggingFace](https://img.shields.io/badge/🤗-Collection-blue)](https://huggingface.co/collections/TitleOS/homephi4-home-assistant-reasoning-llm-67634f31c237890f50767172) |
+| **HomePhi4** | Phi-4-mini-reasoning fine-tuned on the `acon96/Home-Assistant-Requests` dataset. Designed for reasoning-based local home control. Available in FP16 and GGUF quants. | [![HuggingFace](https://img.shields.io/badge/🤗-Collection-blue)](https://huggingface.co/collections/TitleOS/homephi4-home-assistant-reasoning-llm-67634f31c237890f50767172) |
 | **HomeGem4Bn** | A fine-tune of the 4-bit `Gemma 3n-e4b` model, optimized for use as a conversational local LLM to control Home Assistant environments. | [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/HomeGem4Bn) |
-| **MindGem27B** | A 27B parameter "Any-to-Any" model exploring larger scale capabilities. | [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/MindGem27B) |
+| **MindGem27B** | A Lora experiment to add CoT (Chain Of Thought) and reasoning to Gemma 3 27B. | [![HuggingFace](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/MindGem27B) |
 
 ### Experimental & Research
 
@@ -58,6 +58,7 @@ This collection showcases my work with the **"Textbooks Are All You Need"** (Phi
 I also curate and release datasets used for training specific behaviors.
 
 * **[RocketRaccoon Personality Alpaca](https://huggingface.co/datasets/TitleOS/rocketraccoon_personality_alpaca):** A personality-driven dataset used to imbue models with a specific character voice, formatted in the Alpaca style.
+* **[Eve-Secure-Coder](https://huggingface.co/datasets/TitleOS/Eve-Secure-Coder):** Eve Secure Coder is a composite dataset curated to fine-tune Qwen3-4b-Heretic into a highly capable, security-conscious coding assistant with a distinct personality and no refusals. The primary goal of this dataset is to bridge the gap between sterile, robotic coding assistants and engaging, conversational AI, without sacrificing technical accuracy or security. By combining high-quality coding archives, vulnerability detection patterns, function calling capabilities, and personality datasets, "Eve" is designed to be a secure coding partner that feels like a person, not just a tool.
 
 ---
 
@@ -89,6 +90,9 @@ Both projects utilize the `acon96/Home-Assistant-Requests` dataset to ensure mod
 
 ## 
 ​If you have questions about the training methodologies, datasets, or specific model weights, feel free to reach out.
+
 ​Hugging Face: https://huggingface.co/TitleOS
+
 ​Blog: https://titleos.dev
+
 ​BlueSky: https://bsky.app/profile/titleos.dev
