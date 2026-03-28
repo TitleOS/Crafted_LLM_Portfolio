@@ -11,13 +11,13 @@ My work focuses on practical applications—such as local home automation contro
 
 Below is a curated list of my trained models and collections. Click the badges to visit the respective Hugging Face repositories.
 
-### Purple Team/Secure Coder Models (Private as of current)
+### Purple Team/Secure Coder Models
 
 I created a dataset using a unique ratioed combination of QuixiAI/samantha-data, NousResearch/hermes-function-calling-v1, NousResearch/RLVR_Coding_Problems, nyuuzyou/google-code-archive and CyberNative/Code_Vulnerability_Security_DPO to create a sassy purple team agent. The result, after training on a heretic version of Qwen 3 4B, was Eve-4B, a model that scores 26.22% on Pass@1 on LCB, outperforming existing models 5 to 30 times its size (like Mixtral-8x22B, Codestral, and Mistral-Large). Eve can just as easily identify and patch CVEs in your source base, as it could write ransomware. Since the base model had the heretic method applied *before* finetuning, and due to the lack of refusals in the Eve-Secure-Coder dataset, Eve will not refuse any prompt, which is needed for effective Red Teaming. I also had the theory that applying heretic before finetuning would allow the finetuning process to restore the minor intelligence damage the process can sometimes inflict, which turned out correct, as Eve outperforms its base Qwen model with ease. 
 
 | Model Name | Role | Description | Repository |
 | :--- | :--- | :--- | :--- |
-| **Eve-4B** | **Purple Team Agent** | A "punches above it's weight class" purple teaming model, based on Heretic'd Qwen 3 4B, Eve-4B scores a 26.22% on LCB, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent.|The model is private but likely will be open sourced soon.|
+| **Eve-4B** | **Purple Team Agent** | A "punches above it's weight class" purple teaming model, based on Heretic'd Qwen 3 4B, Eve-4B scores a 26.22% on LCB, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent.|https://huggingface.co/collections/TitleOS/eve-4b-small-secure-coder
 
 ### Efficient & Distilled Models (Teacher-Student)
 
