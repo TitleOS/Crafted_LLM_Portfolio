@@ -17,7 +17,8 @@ I created a dataset using a unique ratioed combination of QuixiAI/samantha-data,
 
 | Model Name | Role | Description | Repository |
 | :--- | :--- | :--- | :--- |
-| **Eve-4B** | **Purple Team Agent** | A "punches above it's weight class" purple teaming model, based on Heretic'd Qwen 3 4B, Eve-4B scores a 26.22% on LCB, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent.|https://huggingface.co/collections/TitleOS/eve-4b-small-secure-coder
+| **Eve-4B** | **Small Secure Coder** | A "punches above it's weight class" purple teaming model, based on Heretic'd Qwen 3 4B, Eve-4B scores a 26.22% on LCB, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent.|https://huggingface.co/collections/TitleOS/eve-4b-small-secure-coder
+| **Metis-4B** | **Purple Utility Agent** | Based on Heretic'd Qwen 3.5-4B, Metis-4B is a sister model to Eve-4B, with the Q8 using under 5GB of ram, resulting in GPT 3.5-Turbo performance on a laptop. The model is also trained to use tools and function calls, making it an effective agent for desktop and CLI usage.| Private as of now.
 
 ### Efficient & Distilled Models (Teacher-Student)
 
