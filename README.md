@@ -46,6 +46,7 @@ This collection showcases my work with the "Textbooks Are All You Need" methodol
 | **MindGem27B** | A LoRA experiment bringing Chain of Thought (CoT) and reasoning capabilities to Gemma 3 27B. | [![Model](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/MindGem27B) |
 | **LokiHA-2B** | A helpful, sassy, and theatrical Qwen3.5-2B fine-tune built for CPU-based Home Assistant actions and natural conversation. | [![Model](https://img.shields.io/badge/🤗-Open_Model-yellow)](https://huggingface.co/TitleOS/LokiHA-2B-FP32) |
 | **ADBait-1B** | Built on granite-4.0-h-1b. Powers a dynamic Android 14 Debug Bridge honeypot with realistic CLI responses. | [![Collection](https://img.shields.io/badge/🤗-Collection-green)](https://huggingface.co/collections/TitleOS/adbait-1b-android-14-debug-bridge-dynamic-honeypot) |
+| **Linden-4B** | Linden-4B is a finetune of Qwen3.5-4B designed to be a Midwest inspired Internet radio DJ also used with Qwen TTS. Designed for use with LindenDJ. | [![Collection](https://img.shields.io/badge/🤗-Collection-orange)](https://huggingface.co/collections/TitleOS/linden-4b-minnesota-internet-radio-dj) |
 
 ### 🔬 Experimental & Research
 
@@ -74,6 +75,7 @@ I curate and release specialized datasets used to train specific behaviors and a
 * **[ADB-CursedHoneyComb](https://huggingface.co/datasets/TitleOS/ADB-CursedHoneyComb):** A collection of 250 Android ADB commands with realistic output for an Android 14 system. Includes fake popular user and system apps to enable dynamic modern honeypots.
 * **[Scripture_1500_pairs_gemini_flash_lite](https://huggingface.co/datasets/TitleOS/scripture_1500_pairs_gemini_flash_lite):** 1500 pairs distilled by Gemini 3.1 Flash Lite from an English translation of the Torah and Quran. Used to train Elohim-3.8B.
 * **[RocketRaccoon Personality Alpaca](https://huggingface.co/datasets/TitleOS/rocketraccoon_personality_alpaca):** A personality-driven dataset used to imbue models with a specific character voice in the Alpaca style.
+* **[Linden_MN_DJ_Persona](https://huggingface.co/datasets/TitleOS/Linden_MN_DJ_Persona):** A personality-driven dataset designed to produce a dry wit, commentary heavy radio DJ personality for the Midwest, specifically MN area.  
 
 ---
 
