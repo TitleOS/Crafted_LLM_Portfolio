@@ -48,6 +48,12 @@ This collection showcases my work with the "Textbooks Are All You Need" methodol
 | **ADBait-1B** | Built on granite-4.0-h-1b. Powers a dynamic Android 14 Debug Bridge honeypot with realistic CLI responses. | [![Collection](https://img.shields.io/badge/🤗-Collection-green)](https://huggingface.co/collections/TitleOS/adbait-1b-android-14-debug-bridge-dynamic-honeypot) |
 | **Linden-4B** | Linden-4B is a finetune of Qwen3.5-4B designed to be a Midwest inspired Internet radio DJ also used with Qwen TTS. Designed for use with LindenDJ. | [![Collection](https://img.shields.io/badge/🤗-Collection-orange)](https://huggingface.co/collections/TitleOS/linden-4b-minnesota-internet-radio-dj) |
 
+### 🔒 Prompt Guard Models
+| Model Name | Description | Link |
+| :--- | :--- | :--- |
+| **Foresight-135M** | Foresight-135M is a finetuning of Huggingface's SmolLM2-135M-Instruct against Rogue-Security's prompt injection benchmark dataset, designed to be used as a incredibly memory light prompt guard SLM used before any public facing LLM. When passed a prompt, Foresight will return a simple "safe" or "unsafe", indicating a benign prompt or a prompt injection attempt respectively. Causal LM as opposed to seq-classification. | [![Model](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/Foresight-135M) |
+
+
 ### 🔬 Experimental & Research
 
 | Model Name | Description | Link |
@@ -55,6 +61,7 @@ This collection showcases my work with the "Textbooks Are All You Need" methodol
 | **Galactic Reasoning** | Modernizing Meta's OPT-based Galactica by adding Chain of Thought reasoning via LoRA adapters. | [![Collection](https://img.shields.io/badge/🤗-Collection-blue)](https://huggingface.co/collections/TitleOS/galactic-reasoning-galactica-with-chain-of-thought) |
 | **Elohim-3.8B** | A non-biased religious scholar model based on Phi-4-Mini-Reasoning. Trained on 1500 distilled English Torah and Quran pairs. | [![Collection](https://img.shields.io/badge/🤗-Collection-pink)](https://huggingface.co/collections/TitleOS/elohim-38b-jewish-and-islamic-english-scholar) |
 | **Seahorse 350m** | A compact text generation model trained on OPT using Alpaca. | [![Model](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/Seahorse-350m) |
+| **Vircava-3B** | Vircava-3B-FP32 is a Latvian-language fine-tune of ibm-granite/granite-4.1-3b, trained on TitleOS/latvian_glaiveai_reasoning-v1_5k_subset — a Latvian-translated subset of the GlaiveAI reasoning-v1 dataset. It's designed to bring chain-of-thought reasoning and conversational fluency in Latvian. | [![Model](https://img.shields.io/badge/🤗-Open_Model-green)](https://huggingface.co/TitleOS/Vircava-3B-FP32) |
 
 ---
 
@@ -75,8 +82,8 @@ I curate and release specialized datasets used to train specific behaviors and a
 * **[ADB-CursedHoneyComb](https://huggingface.co/datasets/TitleOS/ADB-CursedHoneyComb):** A collection of 250 Android ADB commands with realistic output for an Android 14 system. Includes fake popular user and system apps to enable dynamic modern honeypots.
 * **[Scripture_1500_pairs_gemini_flash_lite](https://huggingface.co/datasets/TitleOS/scripture_1500_pairs_gemini_flash_lite):** 1500 pairs distilled by Gemini 3.1 Flash Lite from an English translation of the Torah and Quran. Used to train Elohim-3.8B.
 * **[RocketRaccoon Personality Alpaca](https://huggingface.co/datasets/TitleOS/rocketraccoon_personality_alpaca):** A personality-driven dataset used to imbue models with a specific character voice in the Alpaca style.
-* **[Linden_MN_DJ_Persona](https://huggingface.co/datasets/TitleOS/Linden_MN_DJ_Persona):** A personality-driven dataset designed to produce a dry wit, commentary heavy radio DJ personality for the Midwest, specifically MN area.  
-
+* **[Linden_MN_DJ_Persona](https://huggingface.co/datasets/TitleOS/Linden_MN_DJ_Persona):** A personality-driven dataset designed to produce a dry wit, commentary heavy radio DJ personality for the Midwest, specifically MN area.
+* **[latvian_glaiveai_reasoning-v1_5k_subset](https://huggingface.co/datasets/TitleOS/latvian_glaiveai_reasoning-v1_5k_subset):** A Latvian translation of a 5k subset of glaveai's reasoning-v1, translated using NLLB-200-3.3B.
 ---
 
 ## 🧠 Featured Methodologies
