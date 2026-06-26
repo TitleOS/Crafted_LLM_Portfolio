@@ -63,6 +63,12 @@ This collection showcases my work with the "Textbooks Are All You Need" methodol
 | **Seahorse 350m** | A compact text generation model trained on OPT using Alpaca. | [![Model](https://img.shields.io/badge/🤗-Open_Model-blue)](https://huggingface.co/TitleOS/Seahorse-350m) |
 | **Vircava-3B** | Vircava-3B-FP32 is a Latvian-language fine-tune of ibm-granite/granite-4.1-3b, trained on TitleOS/latvian_glaiveai_reasoning-v1_5k_subset — a Latvian-translated subset of the GlaiveAI reasoning-v1 dataset. It's designed to bring chain-of-thought reasoning and conversational fluency in Latvian. | [![Model](https://img.shields.io/badge/🤗-Open_Model-green)](https://huggingface.co/TitleOS/Vircava-3B-FP32) |
 
+## 🤏 Small Language Models
+
+| Model Name | Description | Link |
+| :--- | :--- | :--- |
+| **Solomon 0.5B** | Solomon-0.5B is a mobile-focused reasoning model fine-tuned from Qwen/Qwen2.5-0.5B on a curated dataset of Opus CoT reasoning traces. | [![Collection](https://img.shields.io/badge/🤗-Collection-purple)](https://huggingface.co/collections/TitleOS/solomon-05b-mobile-reasoning-slm) |
+
 ---
 
 ## 🔓 Decensoring & Jailbreaking
@@ -84,6 +90,7 @@ I curate and release specialized datasets used to train specific behaviors and a
 * **[RocketRaccoon Personality Alpaca](https://huggingface.co/datasets/TitleOS/rocketraccoon_personality_alpaca):** A personality-driven dataset used to imbue models with a specific character voice in the Alpaca style.
 * **[Linden_MN_DJ_Persona](https://huggingface.co/datasets/TitleOS/Linden_MN_DJ_Persona):** A personality-driven dataset designed to produce a dry wit, commentary heavy radio DJ personality for the Midwest, specifically MN area.
 * **[latvian_glaiveai_reasoning-v1_5k_subset](https://huggingface.co/datasets/TitleOS/latvian_glaiveai_reasoning-v1_5k_subset):** A Latvian translation of a 5k subset of glaveai's reasoning-v1, translated using NLLB-200-3.3B.
+* **[Solomon-Small-Reasoning-Opus-Inspired](https://huggingface.co/datasets/TitleOS/Solomon-Small-Reasoning-Opus-Inspired):** Jackrong/Claude-opus-4.7-TraceInversion-5000x and Jackrong/Claude-opus-4.6-TraceInversion-9000x combined with a custom "Solomon" persona system prompt.
 ---
 
 ## 🧠 Featured Methodologies
